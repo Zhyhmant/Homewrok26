@@ -1,0 +1,107 @@
+/* File: index.html */
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Verse Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Добро пожаловать на страницу Verse</h1>
+</header>
+<main>
+    <img src="https://via.placeholder.com/800x400" alt="Verse Image">
+    <p><a href="hero.html">Посмотреть страницу супергероя</a></p>
+</main>
+</body>
+</html>
+
+/* File: hero.html */
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Супергерой: Железный человек</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Железный человек (Iron Man)</h1>
+    <nav>
+        <a href="index.html">Вернуться на Verse</a>
+    </nav>
+</header>
+<main>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/ru/e/e0/Iron_Man_bleeding_edge.jpg" alt="Железный человек">
+        <figcaption>Железный человек в костюме Bleeding Edge</figcaption>
+    </figure>
+    <section>
+        <h2>О герое</h2>
+        <p><mark>Железный человек</mark> — это альтер эго гения, миллиардера и филантропа Тони Старка.</p>
+        <details>
+            <summary>Дополнительная информация</summary>
+            <p>Его костюм снабжён самым современным вооружением и искусственным интеллектом.</p>
+        </details>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 Супергерои мира Marvel</p>
+</footer>
+</body>
+</html>
+
+/* File: styles.css */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f9;
+color: #333;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+main {
+padding: 20px;
+text-align: center;
+}
+
+img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+nav a, p a {
+color: #007BFF;
+text-decoration: none;
+}
+
+nav a:hover, p a:hover {
+text-decoration: underline;
+}
+
+footer {
+text-align: center;
+padding: 10px;
+background-color: #333;
+color: white;
+margin-top: 20px;
+}
+
+summary {
+cursor: pointer;
+font-weight: bold;
+margin-top: 10px;
+}
+
+mark {
+background-color: yellow;
+}
